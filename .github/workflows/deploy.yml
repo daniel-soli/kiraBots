@@ -1,9 +1,9 @@
 name: Build and deploy to azure
 
-on:
-  push:
-    branches:
-      - main  # You can change this to the branch you want to trigger the action from
+#on:
+#  push:
+#    branches:
+#      - main  # You can change this to the branch you want to trigger the action from
 
 jobs:
   build:
