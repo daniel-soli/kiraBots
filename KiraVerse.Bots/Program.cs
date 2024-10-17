@@ -10,7 +10,7 @@ var host = new HostBuilder()
     {
         services.AddApplicationInsightsTelemetryWorkerService();
         services.ConfigureFunctionsApplicationInsights();
-        //
+        
         services.AddSingleton<IStorageService<ImxTrade>>(provider =>
         {
             var connectionString = context.Configuration.GetSection("StorageConnectionString").Value;
