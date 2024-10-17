@@ -31,6 +31,15 @@ You need to set up an Azure Function in order for this to run.
   * True/False in config to be able to easily turn off notifications in general (discord and twitter)
 * CryptoCompareApiKey
   * Your apikey for CC
+* kiraConsumerKey
+  * Twitter consumer key
+* kiraConsumerSecret
+  * Twitter consumer key secret
+* kiraAccessToken
+  * Twitter access token
+* kiraAccessSecret
+  * Twitter access token secret
+
 
 ### Storage Account
 Create an Azure Storage Account with at least a storage table
